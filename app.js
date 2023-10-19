@@ -57,10 +57,10 @@ function playerWin(){
         whoWins.innerHTML="Draw"
     }
     else if(Random1Number1 > Random1Number2){
-        whoWins.innerHTML="🚩 Player 1 Wins";
+        whoWins.innerHTML="Player 1 Wins";
     }
     else if(Random1Number1 < Random1Number2){
-        whoWins.innerHTML="Player 2 Wins 🚩";
+        whoWins.innerHTML="Player 2 Wins";
     }
     else{
         whoWins.innerHTML="Refresh Page";
